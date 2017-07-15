@@ -1,5 +1,5 @@
 <?php
-namespace NurudeenUrbanPackage;
+namespace Nurudeen;
 require "../vendor/autoload.php";
 
 class UrbanWord 
@@ -10,4 +10,7 @@ class UrbanWord
 		"sample_sentence" => "Andrei: Prosper, Have you finished the curriculum?.\nProsper: Yes.\nAndrei: Tight, Tight, Tight!!!"
 		];
 }
+
+$inst = new UrbanWord();
+// print_r($inst::$data);
 
