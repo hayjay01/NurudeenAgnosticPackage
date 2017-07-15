@@ -1,0 +1,34 @@
+{
+    "name": "ajayi/slang",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nurudeen",
+            "email": "ajayinurudeen998@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+
+    },
+
+    "require-dev":{
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload":{
+        "psr-4":{
+            "Nurudeen\\" : "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Test\\":"tests/"
+        }
+    },
+
+    "scripts":{
+        "tests":"phpunit"
+    }
+
+}
